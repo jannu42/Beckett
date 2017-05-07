@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class HurtPlayer : MonoBehaviour {
+
+
+    public int damageToGive;
+    
+    // Use this for initialization
+    void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+    /// <summary>
+    /// Hurts player on collision with enemy.
+    /// </summary>
+    /// <param name="other"></param>
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.name == "Player")
+        {
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+            
+
+        }
+    }
+}

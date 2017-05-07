@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu.unity
+    path: Assets/Scenes/Menu Screen.unity
   - enabled: 1
-    path: Assets/Scenes/main.unity
+    path: Assets/Scenes/Market Place 1.unity
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+  - enabled: 1
+    path: Assets/Scenes/Market Place 2.unity
+  - enabled: 0
+    path: Assets/Scenes/TriggerTest.unity
+  - enabled: 1
+    path: Assets/Scenes/TownDocks.unity
+  - enabled: 1
+    path: Assets/Scenes/Jungle Beach.unity
+  - enabled: 1
+    path: Assets/Scenes/Jungle Village.unity
+  - enabled: 1
+    path: Assets/Scenes/Jungle Beach 2.unity
+  - enabled: 1
+    path: Assets/Scenes/Rocky Island.unity
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity

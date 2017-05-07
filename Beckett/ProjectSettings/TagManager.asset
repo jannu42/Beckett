@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - GameOver
+  - items
+  - Loot
+  - HealingItem
   layers:
   - Default
   - TransparentFX
@@ -46,4 +51,13 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3047927355
+    locked: 0
+  - name: menuBackground
+    uniqueID: 2871852935
+    locked: 0
+  - name: menu
+    uniqueID: 1445343453
+    locked: 0
+  - name: UI
+    uniqueID: 1816154819
     locked: 0

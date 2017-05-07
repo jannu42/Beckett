@@ -9,8 +9,32 @@ public class ButtonManager : MonoBehaviour {
 		SceneManager.LoadScene (newGameLevel);
 	}
 
-	public void ExitGameBtn(){
+	/// <summary>
+	/// Loads the game settings.
+	/// </summary>
+	public void LoadGameSettings(string GameLevel){
+		SceneManager.LoadScene (GameLevel);
+		PlayerPrefs.GetFloat ("x");
+		PlayerPrefs.GetFloat ("y");
+		PlayerPrefs.GetFloat ("z");
+		PlayerPrefs.GetFloat ("Cam_y");
+	}
+
+	/// <summary>
+	/// Exits the application button.
+	/// </summary>
+	public void ExitApplicationBtn(){
 		Application.Quit ();
 	}
 
+	/// <summary>
+	/// Exits the game.
+	/// </summary>
+	/// <param name="Quit">If set to <c>true</c> quit.</param>
+	public void ExitGame(bool Quit){
+		if (Quit) {
+			Time.timeScale = 1;
+			SceneManager.LoadScene ("Menu Screen");
+		}
+	}
 }

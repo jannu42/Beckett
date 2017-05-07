@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e6be255403b7676438d85ec51f01df4e
+timeCreated: 1493363600
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Kolikko: {fileID: 4386367351542398, guid: 916a30d3f4816bb4aa8a88813e547d7a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
